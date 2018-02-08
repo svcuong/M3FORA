@@ -3,7 +3,7 @@ The 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000) an
 
 
 
-                       Install from GitHub :  devtools::install_github("ssvcuonghvktqs/M3FORA")
+                       Install from GitHub :  devtools::install_github("svcuonghvktqs/M3FORA")
 
 For a step by step guide for creating a package in R, refer to my wordpress blog here: 
 https://svcuonghvktqs.wordpress.com/category/lap-trinh/r/
