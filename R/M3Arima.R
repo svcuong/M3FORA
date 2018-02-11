@@ -1,0 +1,27 @@
+#' M3-Competition forecasting data
+#'
+#' The forecast with interval forecasts of time series of M3-Competition obtained using arima model
+#'
+#' @format M3Arima is a data frame of forecasts with interval forecasts with the following structure:
+#' \describe{
+#'   \item{series}{Name of the series}
+#'   \item{method}{Name of the forecasting method}
+#'   \item{timesatmp}{The timestamp of series}
+#'   \item{origin_timesatmp}{The forecast origin of series}
+#'   \item{forecast}{The forecast values obtained from ARIMA forecasting method for each time series from M3-Competition data}
+#'   \item{Lo80}{The lower value for confidence level 0.8}
+#'   \item{Hi80}{The upper value for confidence level 0.8}
+#'   \item{Lo95}{The lower value for confidence level 0.95}
+#'   \item{Hi95}{The upper value for confidence level 0.95}
+#' }
+#' @author Andrey Davydenko, Maxim and Sai Van Cuong from Volgograd State Technical University
+#' @seealso \code{\link{plot.ts}}
+#' @source
+#' \url{https://github.com/svcuonghvktqs/M3FORA}.
+#'
+#' @keywords datasets
+#' @examples
+#'
+#' M3Arima[1:20,]
+#'
+"M3Arima"

@@ -1,0 +1,14 @@
+Package: M3FORA
+Title: Data from the M3-Competition
+Description: The 3003 time series from the IJF-M3 competition (Makridakis and Hibon, 2000) and M3 Data with Rolling-Origin and Interval Forecasts
+Version: 1.0
+Depends: R (>= 2.10), forecast (>= 8.0)
+Imports: dygraphs, forecast, zoo, xts
+Authors: Andrey Davydenko, Maxim Shcherbakov and Sai Van Cuong from Volgograd State Technical University
+Maintainer: Sai Van Cuong <svcuonghvktqs@gmail.com>
+License: GPL-3
+URL: https://github.com/svcuonghvktqs/M3FORA
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+LazyData: true
